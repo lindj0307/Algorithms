@@ -6,11 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		046E7A651B4635C400135E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 046E7A571B4635C300135E38;
+			remoteInfo = SimpleSortC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleSortC.xcodeproj; path = SimpleSortC/SimpleSortC.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		046E7A471B46357E00135E38 = {
 			isa = PBXGroup;
 			children = (
+				046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */,
 			);
+			sourceTree = "<group>";
+		};
+		046E7A621B4635C300135E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046E7A661B4635C400135E38 /* SimpleSortC */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -30,11 +53,27 @@
 			);
 			mainGroup = 046E7A471B46357E00135E38;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 046E7A621B4635C300135E38 /* Products */;
+					ProjectRef = 046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		046E7A661B4635C400135E38 /* SimpleSortC */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SimpleSortC;
+			remoteRef = 046E7A651B4635C400135E38 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin XCBuildConfiguration section */
 		046E7A4C1B46357E00135E38 /* Debug */ = {
