@@ -14,16 +14,25 @@
 			remoteGlobalIDString = 046E7A571B4635C300135E38;
 			remoteInfo = SimpleSortC;
 		};
+		046E7ACA1B4672EB00135E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E7AC61B4672EA00135E38 /* SimpleSortSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 046E7ABC1B4672EA00135E38;
+			remoteInfo = SimpleSortSwift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleSortC.xcodeproj; path = SimpleSortC/SimpleSortC.xcodeproj; sourceTree = "<group>"; };
+		046E7AC61B4672EA00135E38 /* SimpleSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleSortSwift.xcodeproj; path = SimpleSortSwift/SimpleSortSwift.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		046E7A471B46357E00135E38 = {
 			isa = PBXGroup;
 			children = (
+				046E7AC61B4672EA00135E38 /* SimpleSortSwift.xcodeproj */,
 				046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */,
 			);
 			sourceTree = "<group>";
@@ -32,6 +41,14 @@
 			isa = PBXGroup;
 			children = (
 				046E7A661B4635C400135E38 /* SimpleSortC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046E7AC71B4672EA00135E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046E7ACB1B4672EB00135E38 /* SimpleSortSwift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +75,10 @@
 					ProductGroup = 046E7A621B4635C300135E38 /* Products */;
 					ProjectRef = 046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */;
 				},
+				{
+					ProductGroup = 046E7AC71B4672EA00135E38 /* Products */;
+					ProjectRef = 046E7AC61B4672EA00135E38 /* SimpleSortSwift.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -71,6 +92,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = SimpleSortC;
 			remoteRef = 046E7A651B4635C400135E38 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		046E7ACB1B4672EB00135E38 /* SimpleSortSwift */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SimpleSortSwift;
+			remoteRef = 046E7ACA1B4672EB00135E38 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
