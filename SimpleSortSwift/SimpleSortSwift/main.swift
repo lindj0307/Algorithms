@@ -10,12 +10,14 @@ import Foundation
 
 /*
 一、数组
-格式一：
+格式一:
     var 变量: 类型[]＝[变量值,变量值,...]
-格式二：
+格式二:
     var 变量 ＝ [变量值,变量值,...]
-
+格式三:
+    var 变量 = [类型]()    //定义可变的空数组,这是目前的语法
 ex.
+    var arrBook = [Int]()
     var arr1 = ["Hi","Joey"]
     var arr2 : [String] = ["Hi","Swift"]
     println ("arr1 =\(arr1),arr2=\(arr2)")
@@ -33,14 +35,12 @@ Swift 替代scanf()的方法:
 
 */
 
-
-
-//定义一个数组并初始化
-var arrBook = [0,0]
-for var m=2;m<11;m++ {
-    arrBook.append(0)
+var arrBook = [Int]()
+for var m=0;m<11;m++ {
+    arrBook.insert(0,atIndex:0)
+    //arrBook.append(0)
+    //arrBook.removeLast()
 }
-
 var arrB = [8,6,4,5,7,8]
 
 for var n=0; n<=5;n++ {
@@ -54,3 +54,11 @@ for var i=0;i<10;i++ {
 }
 
 println("Joey!")
+
+
+
+
+
+
+
+
