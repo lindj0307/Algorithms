@@ -21,6 +21,17 @@ ex.
     var arr1 = ["Hi","Joey"]
     var arr2 : [String] = ["Hi","Swift"]
     println ("arr1 =\(arr1),arr2=\(arr2)")
+二、字典
+格式一:
+    var 变量: Dictionary<类型,类型> ＝[变量值:变量值,变量值:变量值,...]
+格式二:
+var 变量 ＝ [变量值:变量值,变量值:变量值,...]
+
+ex.
+    var dic:Dictionary<String,Int> = ["H1":1,"H2":2]
+    var dic = ["H1":1,"H2":2]
+
+
 
 Swift 替代scanf()的方法:
     let sin = NSFileHandle.fileHandleWithStandardInput()
