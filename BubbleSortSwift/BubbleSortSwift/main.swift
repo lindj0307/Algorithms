@@ -6,14 +6,16 @@
 //  Copyright (c) 2015年 Anta. All rights reserved.
 //
 
+/*
+struct class enum 语法
+
+*/
 import Foundation
 
 struct student {
-    var name = "sdf"
+    var name = "aaabbbccc"
     var score = 0
 }
-
-var dic = ["H1":8,"H2":4,"H3":9,"H4":22,"H5":1]
 
 var arr = [8,3,5,6,9,7]
 var temp = 0
