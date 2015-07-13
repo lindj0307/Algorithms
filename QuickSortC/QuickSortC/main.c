@@ -6,14 +6,15 @@
 //  Copyright (c) 2015年 Anta. All rights reserved.
 //
 
+// 有BUG。
+
 #include <stdio.h>
-int a[101],n;
+int a[10],n;
 
 void quickSort(int left,int right) {
     //i为左边，j为右边，temp为基准数
-    int i,j,t,temp;
-    
-    if (left<right) return;
+    int i,j,t,temp;    
+    //if (left>right) return;
     temp =a[left];
     i=left;
     j=right;
@@ -36,6 +37,7 @@ void quickSort(int left,int right) {
 
 int main() {
     int i;
+    printf("Enter Count:");
     scanf("%d",&n);
     for (i=1; i<=n; i++){
         scanf("%d",&a[i]);
@@ -44,6 +46,7 @@ int main() {
     for (i=1; i<=n; i++){
         printf("%d ",a[i]);
     }
+    
     getchar();
     return 0;
 }

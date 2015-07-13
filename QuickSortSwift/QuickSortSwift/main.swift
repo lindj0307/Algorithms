@@ -8,5 +8,47 @@
 
 import Foundation
 
-println("Hello, World!")
+var arr = [Int]()
+//生成不重复的10个随机数
+while(arr.count<10){
+    var tempInt = Int(arc4random_uniform(100))
+    var b = false
+    for a in arr {
+        if (a == tempInt) {
+            b = true
+        }
+    }
+    if(!b) {
+        arr.append(tempInt)
+    }
+}
+println(arr)
+
+func quickSort(iLeft: Int,iRight:Int) {
+    var i,j,t,temp :Int
+    if(iLeft>iRight){return}
+    temp = arr[iLeft]
+    i=iLeft
+    j=iRight
+    if(i>j) { return }
+    while(i != j){
+        while(i<j && arr[j]>=temp){ j--}
+        while(i<j && arr[i]<=temp){ i++ }
+        //交换位置
+        if(i<j){
+            t=arr[i]
+            arr[i] = arr[j]
+            arr[j] = t
+        }
+    }
+    //循环结束后与基数交换位置
+    arr[iLeft] = arr[i]
+    arr[i] = temp
+    quickSort(iLeft, i-1)
+    quickSort(i+1, iRight)
+}
+
+quickSort(0, 9)
+println(arr)
+println("Hello,QucikSort!")
 
