@@ -19,6 +19,6 @@ while (head < tail) {
     tail++
     head++
 }
-//println(q)
+
 println("Hello, World!")
 
