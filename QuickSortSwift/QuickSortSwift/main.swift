@@ -11,15 +11,15 @@ import Foundation
 var arr = [Int]()
 //生成不重复的10个随机数
 while(arr.count<10){
-    var tempInt = Int(arc4random_uniform(100))
+    var randomInt = Int(arc4random_uniform(100))
     var b = false
-    for a in arr {
-        if (a == tempInt) {
+    for n in arr {
+        if (n == randomInt) {
             b = true
         }
     }
     if(!b) {
-        arr.append(tempInt)
+        arr.append(randomInt)
     }
 }
 println(arr)
@@ -27,12 +27,13 @@ println(arr)
 func quickSort(iLeft: Int,iRight:Int) {
     var i,j,t,temp :Int
     if(iLeft>iRight){return}
+    //以第一个为基数
     temp = arr[iLeft]
     i=iLeft
     j=iRight
     if(i>j) { return }
     while(i != j){
-        while(i<j && arr[j]>=temp){ j--}
+        while(i<j && arr[j]>=temp){ j-- }
         while(i<j && arr[i]<=temp){ i++ }
         //交换位置
         if(i<j){
