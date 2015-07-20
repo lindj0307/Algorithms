@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		044B185B1B5C837300CD1FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B18551B5C837000CD1FBD /* LinkListC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 044B184B1B5C837000CD1FBD;
+			remoteInfo = LinkListC;
+		};
+		044B187B1B5C898C00CD1FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B18771B5C898B00CD1FBD /* StackC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 044B186D1B5C898B00CD1FBD;
+			remoteInfo = StackC;
+		};
 		046E7A651B4635C400135E38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */;
@@ -34,6 +48,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 048803781B54B30C000449D2;
 			remoteInfo = QueueQQNumberSwift;
+		};
+		0488039F1B54EECA000449D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0488039B1B54EEC9000449D2 /* Pointer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 048803911B54EEC9000449D2;
+			remoteInfo = Pointer;
 		};
 		04D691331B4D69A000FEE7FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -66,10 +87,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044B18551B5C837000CD1FBD /* LinkListC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LinkListC.xcodeproj; path = LinkListC/LinkListC.xcodeproj; sourceTree = "<group>"; };
+		044B18771B5C898B00CD1FBD /* StackC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StackC.xcodeproj; path = StackC/StackC.xcodeproj; sourceTree = "<group>"; };
 		046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleSortC.xcodeproj; path = SimpleSortC/SimpleSortC.xcodeproj; sourceTree = "<group>"; };
 		046E7AC61B4672EA00135E38 /* SimpleSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleSortSwift.xcodeproj; path = SimpleSortSwift/SimpleSortSwift.xcodeproj; sourceTree = "<group>"; };
 		0488034F1B54AB7A000449D2 /* QueueQQNumberC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QueueQQNumberC.xcodeproj; path = QueueQQNumberC/QueueQQNumberC.xcodeproj; sourceTree = "<group>"; };
 		048803821B54B30C000449D2 /* QueueQQNumberSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QueueQQNumberSwift.xcodeproj; path = QueueQQNumberSwift/QueueQQNumberSwift.xcodeproj; sourceTree = "<group>"; };
+		0488039B1B54EEC9000449D2 /* Pointer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pointer.xcodeproj; path = Pointer/Pointer.xcodeproj; sourceTree = "<group>"; };
 		04D6912F1B4D699F00FEE7FA /* BubbleSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BubbleSortC.xcodeproj; path = BubbleSortC/BubbleSortC.xcodeproj; sourceTree = "<group>"; };
 		04D691481B4E18BB00FEE7FA /* BubbleSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BubbleSortSwift.xcodeproj; path = BubbleSortSwift/BubbleSortSwift.xcodeproj; sourceTree = "<group>"; };
 		04D691611B4EB09500FEE7FA /* QuickSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickSortC.xcodeproj; path = QuickSortC/QuickSortC.xcodeproj; sourceTree = "<group>"; };
@@ -77,9 +101,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		044B18561B5C837000CD1FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B185C1B5C837300CD1FBD /* LinkListC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044B18781B5C898B00CD1FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B187C1B5C898C00CD1FBD /* StackC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		046E7A471B46357E00135E38 = {
 			isa = PBXGroup;
 			children = (
+				044B18771B5C898B00CD1FBD /* StackC.xcodeproj */,
+				044B18551B5C837000CD1FBD /* LinkListC.xcodeproj */,
+				0488039B1B54EEC9000449D2 /* Pointer.xcodeproj */,
 				048803821B54B30C000449D2 /* QueueQQNumberSwift.xcodeproj */,
 				0488034F1B54AB7A000449D2 /* QueueQQNumberC.xcodeproj */,
 				04D6917A1B4EB0BB00FEE7FA /* QuickSortSwift.xcodeproj */,
@@ -119,6 +162,14 @@
 			isa = PBXGroup;
 			children = (
 				048803871B54B30D000449D2 /* QueueQQNumberSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0488039C1B54EEC9000449D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048803A01B54EECA000449D2 /* Pointer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,6 +233,14 @@
 					ProjectRef = 04D691481B4E18BB00FEE7FA /* BubbleSortSwift.xcodeproj */;
 				},
 				{
+					ProductGroup = 044B18561B5C837000CD1FBD /* Products */;
+					ProjectRef = 044B18551B5C837000CD1FBD /* LinkListC.xcodeproj */;
+				},
+				{
+					ProductGroup = 0488039C1B54EEC9000449D2 /* Products */;
+					ProjectRef = 0488039B1B54EEC9000449D2 /* Pointer.xcodeproj */;
+				},
+				{
 					ProductGroup = 048803501B54AB7A000449D2 /* Products */;
 					ProjectRef = 0488034F1B54AB7A000449D2 /* QueueQQNumberC.xcodeproj */;
 				},
@@ -205,6 +264,10 @@
 					ProductGroup = 046E7AC71B4672EA00135E38 /* Products */;
 					ProjectRef = 046E7AC61B4672EA00135E38 /* SimpleSortSwift.xcodeproj */;
 				},
+				{
+					ProductGroup = 044B18781B5C898B00CD1FBD /* Products */;
+					ProjectRef = 044B18771B5C898B00CD1FBD /* StackC.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -213,6 +276,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		044B185C1B5C837300CD1FBD /* LinkListC */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = LinkListC;
+			remoteRef = 044B185B1B5C837300CD1FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		044B187C1B5C898C00CD1FBD /* StackC */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = StackC;
+			remoteRef = 044B187B1B5C898C00CD1FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		046E7A661B4635C400135E38 /* SimpleSortC */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
@@ -239,6 +316,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = QueueQQNumberSwift;
 			remoteRef = 048803861B54B30D000449D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		048803A01B54EECA000449D2 /* Pointer */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Pointer;
+			remoteRef = 0488039F1B54EECA000449D2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		04D691341B4D69A000FEE7FA /* BubbleSortC */ = {
