@@ -21,6 +21,20 @@
 			remoteGlobalIDString = 044B186D1B5C898B00CD1FBD;
 			remoteInfo = StackC;
 		};
+		044B18941B5CA05600CD1FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B18901B5CA05300CD1FBD /* EnumerateC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 044B18861B5CA05300CD1FBD;
+			remoteInfo = EnumerateC;
+		};
+		044B18AD1B5CA7B300CD1FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B18A91B5CA7B200CD1FBD /* EnumerateSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 044B189F1B5CA7B200CD1FBD;
+			remoteInfo = EnumerateSwift;
+		};
 		046E7A651B4635C400135E38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */;
@@ -89,6 +103,8 @@
 /* Begin PBXFileReference section */
 		044B18551B5C837000CD1FBD /* LinkListC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LinkListC.xcodeproj; path = LinkListC/LinkListC.xcodeproj; sourceTree = "<group>"; };
 		044B18771B5C898B00CD1FBD /* StackC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StackC.xcodeproj; path = StackC/StackC.xcodeproj; sourceTree = "<group>"; };
+		044B18901B5CA05300CD1FBD /* EnumerateC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EnumerateC.xcodeproj; path = EnumerateC/EnumerateC.xcodeproj; sourceTree = "<group>"; };
+		044B18A91B5CA7B200CD1FBD /* EnumerateSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EnumerateSwift.xcodeproj; path = EnumerateSwift/EnumerateSwift.xcodeproj; sourceTree = "<group>"; };
 		046E7A611B4635C300135E38 /* SimpleSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleSortC.xcodeproj; path = SimpleSortC/SimpleSortC.xcodeproj; sourceTree = "<group>"; };
 		046E7AC61B4672EA00135E38 /* SimpleSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleSortSwift.xcodeproj; path = SimpleSortSwift/SimpleSortSwift.xcodeproj; sourceTree = "<group>"; };
 		0488034F1B54AB7A000449D2 /* QueueQQNumberC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QueueQQNumberC.xcodeproj; path = QueueQQNumberC/QueueQQNumberC.xcodeproj; sourceTree = "<group>"; };
@@ -117,9 +133,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		044B18911B5CA05300CD1FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B18951B5CA05600CD1FBD /* EnumerateC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044B18AA1B5CA7B200CD1FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B18AE1B5CA7B300CD1FBD /* EnumerateSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		046E7A471B46357E00135E38 = {
 			isa = PBXGroup;
 			children = (
+				044B18A91B5CA7B200CD1FBD /* EnumerateSwift.xcodeproj */,
+				044B18901B5CA05300CD1FBD /* EnumerateC.xcodeproj */,
 				044B18771B5C898B00CD1FBD /* StackC.xcodeproj */,
 				044B18551B5C837000CD1FBD /* LinkListC.xcodeproj */,
 				0488039B1B54EEC9000449D2 /* Pointer.xcodeproj */,
@@ -233,6 +267,14 @@
 					ProjectRef = 04D691481B4E18BB00FEE7FA /* BubbleSortSwift.xcodeproj */;
 				},
 				{
+					ProductGroup = 044B18911B5CA05300CD1FBD /* Products */;
+					ProjectRef = 044B18901B5CA05300CD1FBD /* EnumerateC.xcodeproj */;
+				},
+				{
+					ProductGroup = 044B18AA1B5CA7B200CD1FBD /* Products */;
+					ProjectRef = 044B18A91B5CA7B200CD1FBD /* EnumerateSwift.xcodeproj */;
+				},
+				{
 					ProductGroup = 044B18561B5C837000CD1FBD /* Products */;
 					ProjectRef = 044B18551B5C837000CD1FBD /* LinkListC.xcodeproj */;
 				},
@@ -288,6 +330,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = StackC;
 			remoteRef = 044B187B1B5C898C00CD1FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		044B18951B5CA05600CD1FBD /* EnumerateC */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = EnumerateC;
+			remoteRef = 044B18941B5CA05600CD1FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		044B18AE1B5CA7B300CD1FBD /* EnumerateSwift */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = EnumerateSwift;
+			remoteRef = 044B18AD1B5CA7B300CD1FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		046E7A661B4635C400135E38 /* SimpleSortC */ = {
