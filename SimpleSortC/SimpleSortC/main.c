@@ -1,7 +1,7 @@
 
 //
 //  main.c
-//  SimpleSortC
+//  SimpleSortC joey
 //
 //  Created by 林东杰 on 15/7/3.
 //  Copyright (c) 2015年 Anta. All rights reserved.
@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
     for (i=0; i<=1000; i++) {
         a[i] =0;
     }
+    
     printf("Please enter number Count:");
     scanf("%d",&n);
     for (i=1; i<=n; i++) {
