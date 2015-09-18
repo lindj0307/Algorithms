@@ -98,6 +98,13 @@
 			remoteGlobalIDString = 04D691701B4EB0BB00FEE7FA;
 			remoteInfo = QuickSortSwift;
 		};
+		D4CAC9901BAC146A00F0149B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CAC9891BAC146900F0149B /* EnumerateMatchC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4CAC97F1BAC146900F0149B;
+			remoteInfo = EnumerateMatchC;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +121,7 @@
 		04D691481B4E18BB00FEE7FA /* BubbleSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BubbleSortSwift.xcodeproj; path = BubbleSortSwift/BubbleSortSwift.xcodeproj; sourceTree = "<group>"; };
 		04D691611B4EB09500FEE7FA /* QuickSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickSortC.xcodeproj; path = QuickSortC/QuickSortC.xcodeproj; sourceTree = "<group>"; };
 		04D6917A1B4EB0BB00FEE7FA /* QuickSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickSortSwift.xcodeproj; path = QuickSortSwift/QuickSortSwift.xcodeproj; sourceTree = "<group>"; };
+		D4CAC9891BAC146900F0149B /* EnumerateMatchC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EnumerateMatchC.xcodeproj; path = EnumerateMatchC/EnumerateMatchC.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -152,6 +160,7 @@
 		046E7A471B46357E00135E38 = {
 			isa = PBXGroup;
 			children = (
+				D4CAC9891BAC146900F0149B /* EnumerateMatchC.xcodeproj */,
 				044B18A91B5CA7B200CD1FBD /* EnumerateSwift.xcodeproj */,
 				044B18901B5CA05300CD1FBD /* EnumerateC.xcodeproj */,
 				044B18771B5C898B00CD1FBD /* StackC.xcodeproj */,
@@ -240,6 +249,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D4CAC98A1BAC146900F0149B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CAC9911BAC146A00F0149B /* EnumerateMatchC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
@@ -269,6 +286,10 @@
 				{
 					ProductGroup = 044B18911B5CA05300CD1FBD /* Products */;
 					ProjectRef = 044B18901B5CA05300CD1FBD /* EnumerateC.xcodeproj */;
+				},
+				{
+					ProductGroup = D4CAC98A1BAC146900F0149B /* Products */;
+					ProjectRef = D4CAC9891BAC146900F0149B /* EnumerateMatchC.xcodeproj */;
 				},
 				{
 					ProductGroup = 044B18AA1B5CA7B200CD1FBD /* Products */;
@@ -407,6 +428,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = QuickSortSwift;
 			remoteRef = 04D6917E1B4EB0BD00FEE7FA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4CAC9911BAC146A00F0149B /* EnumerateMatchC */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = EnumerateMatchC;
+			remoteRef = D4CAC9901BAC146A00F0149B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
