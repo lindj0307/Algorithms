@@ -22,7 +22,7 @@ while(arr.count<10){
         arr.append(randomInt)
     }
 }
-println(arr)
+print(arr)
 
 func quickSort(iLeft: Int,iRight:Int) {
     var i,j,t,temp :Int

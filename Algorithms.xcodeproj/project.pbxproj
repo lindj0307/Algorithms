@@ -98,6 +98,20 @@
 			remoteGlobalIDString = 04D691701B4EB0BB00FEE7FA;
 			remoteInfo = QuickSortSwift;
 		};
+		D4B56C1C1BBBD08F00419FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B56C181BBBD08E00419FD1 /* AntaRandom.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4B56C0E1BBBD08E00419FD1;
+			remoteInfo = AntaRandom;
+		};
+		D4B56C431BBBD25E00419FD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B56C3F1BBBD25D00419FD1 /* AntaRandomSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4B56C351BBBD25D00419FD1;
+			remoteInfo = AntaRandomSwift;
+		};
 		D4CAC9901BAC146A00F0149B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D4CAC9891BAC146900F0149B /* EnumerateMatchC.xcodeproj */;
@@ -121,6 +135,8 @@
 		04D691481B4E18BB00FEE7FA /* BubbleSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BubbleSortSwift.xcodeproj; path = BubbleSortSwift/BubbleSortSwift.xcodeproj; sourceTree = "<group>"; };
 		04D691611B4EB09500FEE7FA /* QuickSortC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickSortC.xcodeproj; path = QuickSortC/QuickSortC.xcodeproj; sourceTree = "<group>"; };
 		04D6917A1B4EB0BB00FEE7FA /* QuickSortSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickSortSwift.xcodeproj; path = QuickSortSwift/QuickSortSwift.xcodeproj; sourceTree = "<group>"; };
+		D4B56C181BBBD08E00419FD1 /* AntaRandom.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AntaRandom.xcodeproj; path = AntaRandom/AntaRandom.xcodeproj; sourceTree = "<group>"; };
+		D4B56C3F1BBBD25D00419FD1 /* AntaRandomSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AntaRandomSwift.xcodeproj; path = AntaRandomSwift/AntaRandomSwift.xcodeproj; sourceTree = "<group>"; };
 		D4CAC9891BAC146900F0149B /* EnumerateMatchC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EnumerateMatchC.xcodeproj; path = EnumerateMatchC/EnumerateMatchC.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +176,8 @@
 		046E7A471B46357E00135E38 = {
 			isa = PBXGroup;
 			children = (
+				D4B56C3F1BBBD25D00419FD1 /* AntaRandomSwift.xcodeproj */,
+				D4B56C181BBBD08E00419FD1 /* AntaRandom.xcodeproj */,
 				D4CAC9891BAC146900F0149B /* EnumerateMatchC.xcodeproj */,
 				044B18A91B5CA7B200CD1FBD /* EnumerateSwift.xcodeproj */,
 				044B18901B5CA05300CD1FBD /* EnumerateC.xcodeproj */,
@@ -249,6 +267,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D4B56C191BBBD08E00419FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B56C1D1BBBD08F00419FD1 /* AntaRandom */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B56C401BBBD25D00419FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B56C441BBBD25E00419FD1 /* AntaRandomSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D4CAC98A1BAC146900F0149B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +309,14 @@
 			mainGroup = 046E7A471B46357E00135E38;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = D4B56C191BBBD08E00419FD1 /* Products */;
+					ProjectRef = D4B56C181BBBD08E00419FD1 /* AntaRandom.xcodeproj */;
+				},
+				{
+					ProductGroup = D4B56C401BBBD25D00419FD1 /* Products */;
+					ProjectRef = D4B56C3F1BBBD25D00419FD1 /* AntaRandomSwift.xcodeproj */;
+				},
 				{
 					ProductGroup = 04D691301B4D699F00FEE7FA /* Products */;
 					ProjectRef = 04D6912F1B4D699F00FEE7FA /* BubbleSortC.xcodeproj */;
@@ -428,6 +470,20 @@
 			fileType = "compiled.mach-o.executable";
 			path = QuickSortSwift;
 			remoteRef = 04D6917E1B4EB0BD00FEE7FA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B56C1D1BBBD08F00419FD1 /* AntaRandom */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = AntaRandom;
+			remoteRef = D4B56C1C1BBBD08F00419FD1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4B56C441BBBD25E00419FD1 /* AntaRandomSwift */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = AntaRandomSwift;
+			remoteRef = D4B56C431BBBD25E00419FD1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		D4CAC9911BAC146A00F0149B /* EnumerateMatchC */ = {

@@ -88,6 +88,7 @@
 		044B18971B5CA7B200CD1FBD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Anta;
 				TargetAttributes = {
@@ -236,6 +237,7 @@
 				044B18A81B5CA7B200CD1FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
